@@ -4,7 +4,7 @@
 ### AIM: 
 To write a program to train the classifier for Wine Quality Prediction.
 ###  Algorithm:
-1. Load the diabetes dataset and split it into features (`x`) and target (`y`).
+1. Load the dataset and split it into features (`x`) and target (`y`).
 2. Split the dataset into training and testing sets using `train_test_split`.
 3. Scale the features using `StandardScaler` for both training and testing data.
 4. Instantiate the MLP (Multilayer Perceptron) classifier and train it on the scaled training data.
