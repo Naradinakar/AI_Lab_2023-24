@@ -90,6 +90,9 @@ print('RMSE:', np.sqrt(metrics.mean_squared_error(y_test, predictions)))
 
 ### Output:
 <img src="https://github.com/user-attachments/assets/c885b031-38f5-4861-9a35-08f1c8e43464" height=400>
+
+<br>
+
 <img src="https://github.com/user-attachments/assets/4cc8a4f8-7071-4dbb-acc7-db1f22af06d8" height=400>
 
 
