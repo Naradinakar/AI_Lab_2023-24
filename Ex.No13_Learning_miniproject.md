@@ -88,13 +88,10 @@ print('MSE:', metrics.mean_squared_error(y_test, predictions))
 print('RMSE:', np.sqrt(metrics.mean_squared_error(y_test, predictions)))
 ```
 
-<br> <br> <br> <br> <br> <br> <br> <br>
-
 ### Output:
 <img src="https://github.com/user-attachments/assets/c885b031-38f5-4861-9a35-08f1c8e43464" height=400>
 <img src="https://github.com/user-attachments/assets/4cc8a4f8-7071-4dbb-acc7-db1f22af06d8" height=400>
 
-<br> <br>
 
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
