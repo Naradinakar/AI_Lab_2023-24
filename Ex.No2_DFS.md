@@ -1,6 +1,6 @@
 # Ex.No: 2  Implementation of Depth First Search
-### DATE: 17.02.2024                                                                         
-### REGISTER NUMBER : 212222060295
+### DATE: 15.09.2024                                                                           
+### REGISTER NUMBER : 212221060185
 ### AIM: 
 To write a python program to implement Depth first Search. 
 ### Algorithm:
@@ -24,13 +24,13 @@ graph = {
 visited = set() # Set to keep track of visited nodes of graph.
 def dfs(visited, graph, node):  #function for dfs 
     if node not in visited:
-        print (node)
-        visited.add(node)
-        for neighbour in graph[node]:
-            dfs(visited, graph, neighbour)
+        	print (node)
+        	visited.add(node)
+        	for neighbour in graph[node]:
+            	dfs(visited, graph, neighbour)
 # Driver Code
 print("Following is the Depth-First Search")
-dfs(visited,graph,'5')
+dfs(visited, graph, '5')
 ```
 
 
@@ -43,8 +43,8 @@ dfs(visited,graph,'5')
 
 
 ### Output:
-![Screenshot (27)](https://github.com/Vikhram-S/AI_Lab_2023-24/assets/146576573/c8ee9d9c-caa8-417b-bb4b-c215f8ebab51)
 
+![image](https://github.com/Rajithxx/AI_Lab_2023-24/assets/148357145/f29bcbcb-f894-47f0-8368-faaa6cbe9272)
 
 
 ### Result:
